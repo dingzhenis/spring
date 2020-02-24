@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: 159651
+    url: jdbc:mysql://localhost:3306/redistest?characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
